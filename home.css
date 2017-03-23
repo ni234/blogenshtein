@@ -1,0 +1,27 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#welcome {
+    background-color: gainsboro;
+}
+
+.jumbotron {
+    border-radius: 25px;
+    background-color: transparent;
+    opacity: inherit;
+}
+
+#logo {
+    border-radius: 100%;
+    height: 222px;
+    box-shadow: 0 0 25px;
+}
+
+#innerwell {
+    position: relative;
+    left:100px;
+    margin-left: 290px;
+    margin-right: 290px;
+}
