@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SPOT_DROPPER SC</title>
+    <link rel="stylesheet" href="print.css" media="print">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        html,
+        body {
+            background-color: ghostwhite;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .jumbotron {
+            background-color: snow;
+            padding-bottom: 15px;
+            position: relative;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 100px;
+            height: 600px
+        }
+        
+        #hand {
+            background-color: transparent;
+            position: relative;
+            height: 220px;
+            width: 220px;
+            margin-bottom: 9px;
+            margin-top: 15px;
+        }
+        
+        .well {
+            box-shadow: 0 0 25px black;
+            background-color: black;
+            font-family: 'Monospace';
+            color: ghostwhite;
+            text-align: center;
+            border-color: transparent;
+            position: relative;
+            bottom: 19px;
+            height: 365px;
+        }
+        
+        footer {
+            min-height: 10vh;
+            padding-bottom: 10px;
+            color: gray;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header"> <a class="navbar-brand" href="index.html">DM60</a> </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span style="color:whitesmoke">DM60-WORK</span>
+        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="exercise_3.html">Exercise3</a></li>
+                        <li><a href="#">Exercise4</a></li>
+                        <li><a href="#">Exercise5</a></li>
+                    </ul>
+                </li>
+                <li><a href="/index.html"><span style="color:whitesmoke">HOME</span></a></li>
+                <li><a href="walk.html">SPOTDROP_SC</a></li>
+                <li><a href="demcracyspring.html">DEMOCRACYSPRING</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="well">
+        <h1>Santa Cruz Spot Dropper</h1> <img src="https://www.sk8board.com/uploads/images/2DSAN0SHKHD03BB.png?w=400&h=400&scale=canvas&404=default" alt="schand" class="img-rounded" id="hand">
+        <h4>Take a walk anywhere in the beautiful city of Santa Cruz! Just grab the little yellow dude on the map and drop him wherever you wish!! </h4> </div>
+    <div id="googleMap" style="height:600px;width:100%; posistion:relative; bottom:37px;  ">
+        <!-- Add Google Maps -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC0X66E1Fx1vhxLNT_JWbaeydD4jV0iJXo&callback=initMap" type="text/javascript"></script>
+        <script>
+            var myCenter = new google.maps.LatLng(36.9741, -122.0308);
+
+            function initialize() {
+                var mapProp = {
+                    center: myCenter
+                    , zoom: 12
+                    , scrollwheel: false
+                    , draggable: false
+                    , mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                var marker = new google.maps.Marker({
+                    position: myCenter
+                , });
+                marker.setMap(map);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </div>
+    <div style="text-align:center;"> <a href="http://validator.w3.org/check?uri=referer" style="color:red;">Valid HTML 5</a> &nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/check/referer" style="color:red;">Valid CSS</a> </div>
+</body>
+
+</html>
