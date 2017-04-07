@@ -1,105 +1,116 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html>
 
 <head>
+    <title>Coder</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DM60 Homepage:Nicholas Williams</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
-    <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-    <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.0%20.js" type="text/javascript">
+    </script>
+    <script src="app.js" type="text/javascript"></script>
+    <style>
+      html {
+          margin: auto;
+      }
+
+      h1 {
+            color: whitesmoke;
+            letter-spacing: 5px;
+            font-size: 45px;
+            text-align: center;
+position: relative;
+          top:155px;
+      }
+        h2 {
+            color: ghostwhite;
+            text-align: center;
+            font-size: 45px;
+            text-shadow: 0 0 15px white;
+        }
+        h4 {
+            font-family: "Nimbus Roman No9 L";
+            text-shadow: 0 0 15px;
+        }
+
+
+
+        #instrument {
+            border-radius: 5px 5px 5px 5px ;
+            height: 176px;
+            box-shadow: 0 0 24px white;
+            display: inline-flex;
+
+        }
+img {
+    margin: auto;
+}
+
+   .box {
+        margin-top: -30px;
+       padding-top: 80px;
+       font-family: cursive;
+    }
+.img-div {
+margin-left: 710px;}
+        img {
+            height:200px;
+        }
+     </style>
 </head>
 
 <body>
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Navigation -->
-        <header>
-            <a href="">
-                <h4 class="logo">DM60</h4> </a>
-            <nav style="width: auto">
-                <ul>
-                    <li><a href="#hero">HOME</a></li>
-                    <li><a href="exercise_3.html">Exercise3</a></li>
-                    <li><a href="exercise_4.html">Exercise4</a></li>
-                    <li><a href="exercise_5.html">Exercise5</a></li>
-                    <li style="float: right"><a href="exercise_6.html">Exercise6</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Hero Section -->
-        <section class="hero" id="hero" style="text-align: center">
-            <h1 class="hero_header">Nicholas Williams</h1>
-            <p class="tagline" style="position: relative; top: 00px;"><span class="light">DM60: Cabrillo college<br>2017</span></p>
-        </section>
-        <!-- About Section -->
-        <section class="about" id="about" style="padding-bottom: 50px; padding-top:25px ">
-            <h2 class="hidden">About</h2>
-            <p class="text_column">I have been coding for a little over a year, mostly self taught so I have quite a few holes in my workflow and understanding of html. I have a made a few working valid websites after working through codecademy's HTML course. And have also completed the course at https://dash.generalassemb.ly/. </p>
-            <p class="text_column">I want to better understand HTML as a whole so I can move forward in my hopes of becoming a programmer/developer. I have a pretty good understandng of HTML syntax, just really need to slow down and learn everything starting from the beginning. I would also like to understand how semantic html works within HTML5. </p>
-            <p class="text_column">Im currently in school studying communications design!<img src="images/me.jpg" alt="me" style="height: 155px; border-radius: 100%; position: relative; left: 115px;top: 15px; box-shadow: 0 0 25px"> </p>
-        </section>
-        <hr style="">
-        <!-- Stats Gallery Section -->
-        <div class="gallery">
-            <div class="thumbnail">
-                <h1 class="stats">Exercise3</h1>
-                <h4>HyperLinks</h4>
-                <form method="get" action="exercise_3.html">
-                    <button class="button" type="submit">Ex_3</button>
-                </form>
-            </div>
-            <div class="thumbnail">
-                <h1 class="stats">Exercise4</h1>
-                <h4>links/relative paths</h4>
-                <form method="get" action="exercise_4.html">
-                    <button class="button" type="submit">Ex_4</button>
-                </form>
-            </div>
-            <div class="thumbnail">
-                <h1 class="stats">Exercise5</h1>
-                <h4>Intro: CSS</h4>
-                <form method="get" action="exercise_5.html">
-                    <button class="button" type="submit">Ex_5</button>
-                </form>
-            </div>
-            <div class="thumbnail">
-                <h1 class="stats">Exercise6</h1>
-                <h4>More CSS</h4>
-                <form method="get" action="exercise_6.html">
-                    <button class="button" type="submit">Ex_6</button>
-                </form>
-            </div>
-        </div>
-        <!-- Parallax Section -->
-        <!-- More Info Section -->
-        <footer> </footer>
-        <h2>My Personal Goals for this Course</h2>
-        <hr>
-        <h4>To fill the gaps left from self learning HTML.</h4>
-        <h4>To really slow down and understand every chunk of code I write.</h4>
-        <h4>To get an A in the course.</h4>
-        <h4>To leave with a full understanding of what HTML can do.</h4>
-        <h4>The Text editor I used was notepad++!</h4>
-        <!-- Footer Section -->
-        <section class="footer_banner" id="contact">
-            <h2 class="hidden">Footer Banner Section </h2>
-            <p class="hero_header">Thnaks for visiting!!</p>
-        </section>
-        <!-- Copyrights Section -->
-        <div class="copyright">&copy;2017 - <strong>Nicholas Williams</strong>
-            <br>
-            <div style="text-align:center;"> <a href="http://validator.w3.org/check?uri=referer" style="color:red;">Valid HTML 5</a> &nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/check/referer" style="color:red;">Valid CSS</a> </div>
-        </div>
+<header>
+    <div class="img-div">
     </div>
-    <!-- Main Container Ends -->
+    <h1 style="padding-top: 75px">Let There Be Sound</h1>
+
+    <h4 style="color:ghostwhite; text-align: center; padding-top: 150px">JAVASCRIPT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JQUERY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h4>
+</header>
+    <div class="container" style="position:relative; top:175px">
+<audio id="cAudio">
+        <source src="music_notes/c_note.mp3" type="audio/mpeg">
+        <source src="music_notes/c_note.ogg" type="audio/ogg">
+        <source src="music_notes/c_note.wav" type="audio/wav"> </audio>
+    <audio id="dAudio">
+
+        <source src="music_notes/d_note.mp3" type="audio/mpeg">
+        <source src="music_notes/d_note.ogg" type="audio/ogg">
+        <source src="music_notes/d_note.wav" type="audio/wav"> </audio>
+    <audio id="eAudio">
+        <source src="music_notes/e_note.mp3" type="audio/mpeg">
+        <source src="music_notes/e_note.ogg" type="audio/ogg">
+        <source src="music_notes/e_note.wav" type="audio/wav"> </audio>
+    <audio id="fAudio">
+        <source src="music_notes/f_note.mp3" type="audio/mpeg">
+        <source src="music_notes/f_note.ogg" type="audio/ogg">
+        <source src="music_notes/f_note.wav" type="audio/wav"> </audio>
+    <audio id="gAudio">
+        <source src="music_notes/g_note.mp3" type="audio/mpeg">
+        <source src="music_notes/g_note.ogg" type="audio/ogg">
+        <source src="music_notes/g_note.wav" type="audio/wav"> </audio>
+    <audio id="aAudio">
+        <source src="music_notes/a_note.mp3" type="audio/mpeg">
+        <source src="music_notes/a_note.ogg" type="audio/ogg">
+        <source src="music_notes/a_note.wav" type="audio/wav"> </audio>
+    <audio id="bAudio">
+        <source src="music_notes/b_note.mp3" type="audio/mpeg">
+        <source src="music_notes/b_note.ogg" type="audio/ogg">
+        <source src="music_notes/b_note.wav" type="audio/wav"> </audio>
+
+
+    <div id="instrument">
+
+
+        <div id="c" class="box"><h2>C</h2></div>
+        <div id="d" class="box"><h2>D</h2></div>
+        <div id="e" class="box"><h2>E</h2></div>
+        <div id="f" class="box"><h2>F</h2></div>
+        <div id="g" class="box"><h2>G</h2></div>
+        <div id="a" class="box"><h2>A</h2></div>
+        <div id="b" class="box"><h2>B</h2></div>
+    </div>
+</div>
+
 </body>
 
 </html>
