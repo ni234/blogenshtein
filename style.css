@@ -1,131 +1,180 @@
 body {
-    background-color: black;
+    background-color: #534C4C;
 }
 
 
 /*This is the style for our boxs' container. With it we can position and center the boxes in the browser.*/
 
-#instrument {
-    height: 116px;
-    width: 812px;
-    padding-right: 10px;
-    padding-top: 50px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
 
 
 /*This is the style that give our music boxes shape*/
 
-.box {
-    width: 100px;
-    height: 100px;
-    margin-left: 10px;
-    margin-top: 10px;
-    float: left;
-}
 
+.box h2 {
+	font-family:monospace; 
+	margin-top: -475px;
+	color:white;
+	    font-size: 24px;
+			text-shadow: 0 0 10px snow;
+			position: relative;
+			top: 75px;
+			right: 7px;
+	
+			
+}
 
 /*These are the styles that individually color our boxes and also determine the hover and active states*/
 
-#c:hover {
-    background-color: #661920;
+#E:hover {
+    background-color: white;
     cursor: pointer;
 }
 
-#c:active {
-    background-color: #db1d2d;
+#E:active {
+    background-color: whitesmoke;
+		box-shadow: 0 0 5px whitesmoke;
+
 }
 
-#c {
-    background-color: #3e181b;
-    border: 3px solid #db1d2d;
+#E {
+	
+    background-color: silver;
+    border: 2.5px solid black;
+	box-shadow:0 0 25px black;	
 }
 
 #d:hover {
-    background-color: #6e2819;
+    background-color: snow;
     cursor: pointer;
 }
 
 #d:active {
-    background-color: #f0421c;
+    background-color: silver;
+	box-shadow: 0 0 5px whitesmoke;
+
 }
 
 #d {
-    background-color: #422018;
-    border: 3px solid #f0421c;
+    background-color: silver;
+    border: 2.5px solid black;
+	box-shadow:0 0 25px  ;
 }
 
 #e:hover {
-    background-color: #735b20;
+    background-color: white;
     cursor: pointer;
 }
 
+
 #e:active {
-    background-color: #fec02d;
+    background-color: silver;
+	box-shadow: 0 0 5px whitesmoke;
+
 }
 
 #e {
-    background-color: #45391b;
-    border: 3px solid #fec02d;
+    background-color: silver;
+    border: 2.5px solid black;
+	box-shadow:0 0 25px  ;
 }
 
-#f:hover {
-    background-color: #1b613b;
-    cursor: pointer;
-}
-
-#f:active {
-    background-color: #20d071;
-}
-
-#f {
-    background-color: #193c29;
-    border: 3px solid #20d071;
-}
 
 #g:hover {
-    background-color: #184d65;
+    background-color: white;
     cursor: pointer;
 }
 
 #g:active {
-    background-color: #1a9ddb;
+    background-color: whitesmoke;
+	box-shadow: 0 0 25px whitesmoke;
+
 }
 
 #g {
-    background-color: #18323e;
-    border: 3px solid #1a9ddb;
-}
+ background-color: silver;
+    border: 2.5px solid black;
+	box-shadow:0 0 25px  ;}
 
 #a:hover {
-    background-color: #4e2753;
+    background-color: white;
     cursor: pointer;
 }
 
+
 #a:active {
-    background-color: #a13fad;
+    background-color: silver;
+	box-shadow: 0 0 5px whitesmoke;
+
 }
 
 #a {
-    background-color: #331f35;
-    border: 3px solid #a13fad;
+    background-color: silver;
+    border: 2.5px solid black;
 }
 
 #b:hover {
-    background-color: #6f3a62;
+    background-color: white;
     cursor: pointer;
 }
 
 #b:active {
-    background-color: #f26fd4;
+    background-color: silver;
+	box-shadow: 0 0 25px whitesmoke;
 }
 
 #b {
-    background-color: #43293d;
-    border: 3px solid #f26fd4;
+   background-color: silver;
+    border: 2.5px solid black;
+	box-shadow:0 0 25px  ;
+}
+
+
+.speaker {
+  margin:auto;
+  border-radius:100%;
+
+}
+hr {
+position:static;
+  bottom:-10px;
+}
+
+.hole {
+  display: inline-flex;
+  margin-top:50px;
+  height:15px;
+  width:15px;
+  margin-left:10px;
+  
+  background-color:grey;
+  border-radius:100%;
+  border:inset 4px;
+
+}
+h1 {
+ letter-spacing:20px;
+  font-family:cursive;
+  color: whitesmoke;
+  text-shadow:0 0 5px white;
+  position:relative;
+  bottom:440px;
+}
+
+.knobs {
+  display: inline-flex;
+  margin-top:40px;
+   height:25px;
+  width:24px;
+  background-color:fff;
+  border-radius:100%;
+  border:inset dodgerblue; 
+  margin: 
+    30px 40px 0px 10px
+  
+}
+
+h3 {
+  font-size:0.6em;
+margin:auto;
+  color:snow;
 }
