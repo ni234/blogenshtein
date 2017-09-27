@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Css Transitions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+
+    <link href="http://fonts.googleapis.com/css?family=Jura" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/stylematic.css" type="text/css">
+    <link rel="stylesheet" href="css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        p {
+            font-family: "Droid Serif", "sans-serif";
+            text-align: center;
+            padding: 45px 10px 45px 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+
+        <nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text">
+                            Homepage
+                        </span>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="guitar_tuner.html">
+                        <i class="fa fa-music fa-2x"></i>
+                        <span class="nav-text">
+                            Guitar Tuner!
+                        </span>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="cssPiano.html">
+                        <i class="fa fa-bars fa-2x"></i>
+                        <span class="nav-text">
+                            A pure CSS Piano Concept! 
+                        </span>
+                    </a>
+
+                </li>
+                <li class="has-subnav">
+                    <a href="democracySpring.html">
+                        <i class="fa fa-users fa-2x"></i>
+                        <span class="nav-text">
+                            Philly to DC: DemocracySpring 2017
+                        </span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="exercise_5.html">
+                        <i class="fa fa-laptop fa-2x"></i>
+                        <span class="nav-text">
+                    Some awesome CSS transitions!
+                    </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="fizzBuzz.html">
+                        <i class="fa fa-code fa-2x"></i>
+                        <span class="nav-text" style="padding-left:2px;">
+                       JavaScript "FizzBuzz"
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contactMe.html">
+                        <i class="fa fa-user fa-2x"></i>
+                        <span class="nav-text">
+                            Contact Me with any Questions.
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sitemap.html">
+                        <i class="fa fa-sitemap fa-2x"></i>
+                        <span class="nav-text">
+                           SiteMap
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="Codepen!">
+                <li>
+                    <a href="https://www.codepen.io">
+                        <i class="fa fa-codepen fa-2x"></i>
+                        <span class="nav-text">
+                            Codepen
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="topNav" style="padding-left:47px">
+
+
+
+
+
+
+            <ul class="navy">
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="guitar_tuner.html">GuitarTuner</a></li>
+                <li><a href="cssPiano.html">CssPianio</a></li>
+                <li><a href="democracySpring.html">MarchOnDC</a></li>
+
+                <li><a href="exercise_5.html">CssTransitions</a></li>
+                <li><a href="fizzBuzz.html">JS:Lesson1:FizzBuzz</a></li>
+
+
+                <li><a href="contactMe.html">ContactMe</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="main" style="text-align:center; padding-top:50px">
+
+            <h1 style="font-family:'oswald'">Exploring CSS transitions!</h1>
+            <h5>Nicholas Williams 2017</h5>
+            <hr style="margin: 0 470px 0 500px;">
+            <p>The box below combines transitions for: width, height, background-color, transform. Hover over the box to see these properties animated. </p>
+            <div class="box">
+                <h3>TRY<br>ME</h3>
+            </div>
+            <br>
+            <hr>
+            <p>Next, In the example below the box will change its background color over the course of 1 second in a linear fashion. </p>
+            <br>
+            <div class="box1">
+                <h3>hover me damnit</h3>
+            </div>
+            <hr>
+            <p style="margin-left:40px;">In the example above, the background property is identified in the transition-property value. Here the background property is the only property that will change over the duration of 1 second in a linear fashion. Any other properties included when changing an element’s state, but not included within the transition-property value, will not receive the transition behaviors as set by the transition-duration or transition-timing-function properties. If multiple properties need to be transitioned they may be comma separated within the transition-property value. Additionally, the keyword value all may be used to transition all properties of an element.</p>
+            <div class="box2"> </div>
+
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Theme designed by Nicholas Williams 2017 &copy;</p>
+        <div style="text-align:center;"> <a href="http://validator.w3.org/check?uri=referer" style="color:red;">Valid HTML 5</a> &nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/check/referer" style="color:red;">Valid CSS</a> </div>
+    </footer>
+</body>
+
+</html>

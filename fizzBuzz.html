@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FIZZBUZZ!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+
+    <link href="http://fonts.googleapis.com/css?family=Jura" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet " href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        p {
+            font-family: 'Droid Serif';
+            font-size: 95%;
+            position: relative;
+            margin-left: 110px;
+            margin-right: 110px;
+            line-height: 1.4;
+        }
+        
+        ul.navy {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+        .container .code {
+            background-color: black;
+            text-align: center;
+            margin: 50px 300px 50px 300px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px;
+            border: 10px inset dodgerblue;
+        }
+        
+        .container {
+            margin: 0 0 0 20px;
+        }
+
+    </style>
+</head>
+
+<body style="overflow:scroll">
+    <div id="wrapper">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="topNav" style="width:100%">
+
+
+
+
+
+
+                    <ul class="navy">
+                        <li><a href="index.html">Home</a></li>
+
+                        <li><a href="guitar_tuner.html">GuitarTuner</a></li>
+                        <li><a href="cssPiano.html">CssPianio</a></li>
+                        <li><a href="democracySpring.html">MarchOnDC</a></li>
+
+                        <li><a href="exercise_5.html">CssTransitions</a></li>
+                        <li><a href="fizzBuzz.html">JS:Lesson1:FizzBuzz</a></li>
+
+
+                        <li><a href="contactMe.html">ContactMe</a></li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-home fa-2x"></i>
+                            <span class="nav-text">
+                            Homepage
+                        </span>
+                        </a>
+
+                    </li>
+                    <li class="has-subnav">
+                        <a href="guitar_tuner.html">
+                            <i class="fa fa-music fa-2x"></i>
+                            <span class="nav-text">
+                            Guitar Tuner!
+                        </span>
+                        </a>
+
+                    </li>
+                    <li class="has-subnav">
+                        <a href="cssPiano.html">
+                            <i class="fa fa-bars fa-2x"></i>
+                            <span class="nav-text">
+                            A pure CSS Piano Concept! 
+                        </span>
+                        </a>
+
+                    </li>
+                    <li class="has-subnav">
+                        <a href="democracySpring.html">
+                            <i class="fa fa-users fa-2x"></i>
+                            <span class="nav-text">
+                            Philly to DC: DemocracySpring 2017
+                        </span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="exercise_5.html">
+                            <i class="fa fa-laptop fa-2x"></i>
+                            <span class="nav-text">
+                    Some awesome CSS transitions!
+                    </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="fizzBuzz.html">
+                            <i class="fa fa-code fa-2x"></i>
+                            <span class="nav-text">
+                       JavaScript "FizzBuzz"
+                        </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contactMe.html">
+                            <i class="fa fa-user fa-2x"></i>
+                            <span class="nav-text">
+                            Contact Me with any Questions.
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sitemap.html">
+                            <i class="fa fa-sitemap fa-2x"></i>
+                            <span class="nav-text">
+                           SiteMap
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="logout">
+                    <li>
+                        <a href="https://codepen.io">
+                            <i class="fa fa-codepen fa-2x"></i>
+                            <span class="nav-text">
+                            CODEPEN
+                        </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <div class="main">
+        <div class="row">
+            <div class="col-sm-8" style="padding:40px 0 0 0">
+                <div class="container">
+                    <h1 style="text-align:center; font-size:300%; font-family:oswald; letter-spacing:3px">FIZZBUZZ</h1>
+                    <h5 style="text-shadow: 0 0 1px crimson; text-align:center">By Nicholas Williams</h5>
+                    <p style="text-align:center">Lets build a simple program in JavaScript that prints the numbers 1-20. . . With a few rules to increase the difficulty.</p>
+                    <hr>
+                    <h3 style="text-shadow: 0 0 1px crimson; text-align:center">The rules:</h3>
+                    <p>1:If the number is divisible by 3, print out the word "Fizz"</p>
+                    <p>2:If the number is divisible by 5, print "Buzz"</p>
+                    <p>3:If the number is divisible by both 3 and 5 print "FizzBuzz"</p>
+                    <p>Also remember there are many ways to solve this. In this example we will use a nested conditional loop to solve.</p>
+                    <hr>
+                    <h3 style="padding: 0 0 0 50px;">Step:1 Understanding what we need</h3>
+                    <p>Lets look at the first part of this problem. Its telling us our program should print the numbers 1-20...</p>
+                    <p>In javaScript we use loops when we want to repeat some algorithm. For example if we wanted to print the numbers 0 - 10, we would write something that looks like this:</p>
+                    <br>
+                    <div class="code"><span style="color:whitesmoke; text-shadow:0 0 1px black; font-size:38px;">for (var i = 0; i &lt; 11; i++) {<br> 
+                                                                 console.log(i);
+                                                                 <br>}
+                                                                 
+            </span></div>
+                    <p>So lets break this code down. In a for loop, we use 3 commands inside the loops parenthisis.
+                        <br>
+                        <br> The first command will define the variable we will use in the loop. <strong> var i = 0;</strong> (variable i is equal to 0). The next command is a conditional and says that <strong>i is less than 11.</strong> (The loop will run while this is true.) Next, we see i++ which is our third command which increments the variable i (We usually use variable with name i it is coding convention.) by 1. So while <strong> i is less than 11 (until count reaches 10) repeat the loop while adding 1 to the i variable</strong> each time it cycles the loop. It will terminate once our logic becomes false. (The loop has repeated 11 times).</p>
+                    <hr>
+                    <p style="padding-left:15px;"><strong>Still with me?</strong></p>
+                    <p>Now, lets apply what we just learned to our challenge.
+                        <br>We need a loop that will print the numbers <strong>1-20</strong> so...</p>
+                    <div class="code"><span style="color:whitesmoke; text-shadow:0 0 1px black; font-size:38px;">for (var i = 1; i &lt;= 20; i++) {<br> 
+                                                                 console.log(i);
+                                                                 <br>}
+                                                                 
+            </span></div>
+                    <p>The codes logic says, <strong>variable i is 1</strong>. Now the loop checks that i (1) is less than or equal to 20. The i++ repeates the loop in inrements of one. When i becomes 20 the loop will terminate and the output from the console should be...</p>
+                    <div class="code" style="color:whitesmoke">
+                        <br>1
+                        <br>2
+                        <br>3
+                        <br>4
+                        <br>5
+                        <br>6
+                        <br>7
+                        <br>8
+                        <br>9
+                        <br>10
+                        <br>11
+                        <br>12
+                        <br>13
+                        <br>14
+                        <br>15
+                        <br>16
+                        <br>17
+                        <br>18
+                        <br>19
+                        <br>20 </div>
+                    <p style="padding-top:25px;">If you figured it out congradulations. Now lets get to the good stuff.</p>
+                    <hr>
+                    <h3 style="padding-left:50px">Step: 2 Adding some if and else logic</h3>
+                    <p>We now have a working JS program that prints the numbers 1-20. But lets look at the rule that says...
+                        <br><strong>If any of the digits are divisible by BOTH 3 and 5... instead of the digit print the string "FizzBuzz".<br></strong> To introduce more arguments requires the use of some if and else statemetns included in our loop. lets start by taking out the call to the console and save that until were done so... </p>
+                    <div class="code" style="font-size:140%;"> <span style="color:whitesmoke; text-shadow:0 0 1px black;;">for (var i = 1; i &lt;= 20; i++) {<br> 
+                <br> }</span></div>
+                    <p style="padding-top:25px">Now inside the parenthesis we will add our first if statement and introduce the "%" modulus operator. look at the following code and see if you can understand what it says before reading the explanation below. </p>
+                    <div class="code" style="font-size:110%;">
+                        for (var i = 1; i &lt;= 20; i++) {<br>
+                        <span style="color:whitesmoke; padding-left:10px; text-shadow:0 0 25px dodgerblue"> if (i % 3 === 0 && i % 5 === 0) {<br>
+               &nbsp;console.log("FizzBuzz");
+                            <br>  }</span>
+                    </div>
+                    <br>} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <p style="padding-top:25px;">The best way to think about the modulus operator or % is as the remainder to the given division problem..
+                        <br> So for example
+                        <br> <strong>20 % 6 is 2<br></strong> because <strong> 20 / 6 = 18</strong> with a remainder of 2. So looking back at our code we see
+                        <br> <strong>if(i % 3 === 0 && i % 5 === 0);</strong>
+                        <br> So we can read this like, if variable i divided by 3 has no remainder and variable i divided 5 also has no remainder.(Meaning is divisible evenly by both 3 and 5) (console.log) print the string "Fizzbuzz". So now we can breath knowing the hardest part is done. Lets scratch 3 from our list of rules. Next we need a way to include 2 more arguments into our loop!</p>
+                    <hr>
+                    <h3 style="text-align:left; padding:0 0 0 50px;">Step: 3 else if!</h3>
+                    <p>COMING SOON!! </p>
+
+                </div>
+
+
+            </div>
+            <div class="previews" style="color:whitesmoke; border-radius:5px; padding:30px 0 30px 0; ">
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="container">
+
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Theme designed by Nicholas Williams 2017 &copy;</p>
+        <div style="text-align:center;"> <a href="http://validator.w3.org/check?uri=referer" style="color:red;">Valid HTML 5</a> &nbsp;&nbsp; <a href="http://jigsaw.w3.org/css-validator/check/referer" style="color:red;">Valid CSS</a> </div>
+    </footer>
+
+</body>
+
+</html>
