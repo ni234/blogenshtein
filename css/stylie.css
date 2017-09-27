@@ -1,0 +1,316 @@
+#instrument {
+    border-radius: 5px 5px 5px 5px;
+    height: 156px;
+    text-align: center;
+}
+
+.keyboard {
+    width: 100%;
+    background-color: black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+.container-fluid {
+    position: relative;
+    top: 300px;
+    height: 600px;
+}
+
+
+/*This is the style that give our music boxes shape*/
+
+.box {
+    position: relative;
+    bottom: 440px;
+    display: inline-block;
+    width: 60px;
+    height: 190px;
+}
+
+
+/*These are the styles that individually color our boxes and also determine the hover and active states*/
+
+#c:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#c:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 5px whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+#c {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#E:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#E:active {
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0 0 5px whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+#f:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#f:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 5px whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+#f {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#E {
+    background-color: silver;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px black;
+    box-shadow: 0 0 25px black;
+}
+
+#d:hover {
+    background-color: snow;
+    cursor: pointer;
+}
+
+#d:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 5px whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+#d {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#e:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#e:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 5px whitesmoke;
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+#e {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#g:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#g:active {
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#g {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#a:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#a:active {
+    background-color: silver;
+}
+
+#a {
+    background-color: ivory;
+    border: 2.5px solid black;
+}
+
+#b:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#b:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#b {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#h:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#h:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#h {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#i:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#i:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#i {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#j:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#j:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#j {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#k:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#k:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#k {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#l:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#l:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#l {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#m:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#m:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#m {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#n:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#n:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#n {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
+
+#o:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#o:active {
+    background-color: silver;
+    -webkit-box-shadow: 0 0 25px whitesmoke;
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#o {
+    background-color: ivory;
+    border: 2.5px solid black;
+    -webkit-box-shadow: 0 0 25px;
+    box-shadow: 0 0 25px;
+}
